@@ -1,0 +1,8 @@
+Makefile
+Makefile.pure
+MANIFEST
+MANIFEST.SKIP
+META
+plugin/gsession.vim
+README.mkd
+VIMMETA.yml

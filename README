@@ -1,0 +1,11 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2885
+
+gsession.vim provides global namespace and current path namespace for you to save session. so if you save session with the same name in different space, it won't conflict.
+
+gsession.vim also provides anonymous sessions , so you don't need to think about session name , gsession.vim saves time for you.
+
+gsession.vim saves your session files into the same directory (~/.vim/session/) by default. and auto-detect your session file to load session file when you are opening vim editor without arguments. you can also define your session dir by g:session_dir option.
+
+gsession.vim also save your session file when you are leaving vim editor.
+
+gsession.vim also support making a local session file <leader>sS, which is just like :mksession! command. but you can define your favorite session filename.

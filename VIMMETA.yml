@@ -1,0 +1,11 @@
+---
+author: Cornelius
+email: cornelius.howl@gmail.com
+libpath: ./
+name: gsession.vim
+type: plugin
+version: 0.2
+version_from: plugin/gsession.vim
+vim_version:
+  op: '>='
+  version: 7.2
