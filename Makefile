@@ -11,14 +11,15 @@
 
 
 # -------- meta section ------
-EMAIL = cornelius.howl@gmail.com
-VERSION = 0.2
+VERSION = 0.21
 NAME = gsession.vim
 AUTHOR = Cornelius
-TYPE = plugin
 VERSION_FROM = plugin/gsession.vim
 LIBPATH = ./
-DISTNAME = gsession-vim-0.2
+EMAIL = cornelius.howl@gmail.com
+TYPE = plugin
+SCRIPT_ID = 2885
+DISTNAME = gsession-vim-0.21
 VIM_VERSION = 7.2
 
 

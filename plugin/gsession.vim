@@ -2,7 +2,7 @@
 " Author: Cornelius
 " Mail:   cornelius.howl@gmail.com
 " Web:    http://oulixe.us
-" Version: 0.2
+" Version: 0.21
 "
 " Options:
 "     g:local_session_filename [String]
@@ -21,8 +21,9 @@
 "
 "     <leader>sE    eliminate all session file (eliminate global session only).
 
-set sessionoptions-=curdir
-set sessionoptions+=sesdir
+" set sessionoptions-=curdir
+" set sessionoptions+=sesdir
+set sessionoptions-=buffers
 
 fun! s:warn(msg)
   redraw
