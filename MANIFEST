@@ -1,8 +1,10 @@
-MANIFEST
-MANIFEST.SKIP
-META
 Makefile
 Makefile.pure
+Makefile.vimp
+MANIFEST
+MANIFEST.bak
+MANIFEST.SKIP
+META
+plugin/gsession.vim
 README.mkd
 VIMMETA.yml
-plugin/gsession.vim
