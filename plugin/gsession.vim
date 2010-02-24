@@ -2,7 +2,7 @@
 " Author: Cornelius
 " Mail:   cornelius.howl@gmail.com
 " Web:    http://oulixe.us
-" Version: 0.22
+" Version: 0.23
 "
 " Options:
 "     g:local_session_filename [String]
@@ -68,8 +68,13 @@ fun! s:session_dir()
 endf
 
 fun! s:session_filename()
-  let filename = substitute(getcwd(),'[:\/]','-','g')
-  return filename
+  let filename = getcwd()
+  if filereadable('.git'.s:sep.'HEAD')
+    let head = readfile('.git'.s:sep.'HEAD')
+    let len = strlen('ref: refs/heads/')
+    let filename = filename . '-git-' . strpart(head[0],len-1)
+  endif
+  return substitute( filename ,'[:\/]','-','g')
 endf
 
 fun! s:session_file()

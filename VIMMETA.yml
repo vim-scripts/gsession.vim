@@ -5,7 +5,7 @@ libpath: ./
 name: gsession.vim
 script_id: 2885
 type: plugin
-version: 0.22
+version: 0.23
 version_from: plugin/gsession.vim
 vim_version:
   op: '>='

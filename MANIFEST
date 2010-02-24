@@ -7,4 +7,5 @@ MANIFEST.SKIP
 META
 plugin/gsession.vim
 README.mkd
+TODO
 VIMMETA.yml

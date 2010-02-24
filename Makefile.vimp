@@ -11,7 +11,7 @@
 
 
 # -------- meta section ------
-VERSION = 0.22
+VERSION = 0.23
 NAME = gsession.vim
 AUTHOR = Cornelius
 VERSION_FROM = plugin/gsession.vim
@@ -19,7 +19,7 @@ LIBPATH = ./
 EMAIL = cornelius.howl@gmail.com
 TYPE = plugin
 SCRIPT_ID = 2885
-DISTNAME = gsession-vim-0.22
+DISTNAME = gsession-vim-0.23
 VIM_VERSION = 7.2
 
 
